@@ -111,13 +111,4 @@
         margin-bottom: 1.5rem;
     }
 
-    .footer {
-        background-color: gray;
-        height: 100px;
-        margin: -0.5rem;
-        text-align: center;
-        padding-top: 1.5rem;
-    }
-
-    
 } /* end media query */
