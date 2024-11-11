@@ -2,6 +2,49 @@
 
     /** INDEX **/
 
+    body {
+        background-color: #AE677F;
+    }
+
+    h1 {
+        color: #39071B;
+        font-family: "Germania One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    h2 {
+        color: #39071B;  
+        font-family: "Germania One", system-ui;
+        font-weight: 400;
+        font-style: normal;    
+        font-size: 32px;  
+    }
+
+    p {
+        color: #39071B;
+        line-height: 1.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    a {
+        color: #03150A;
+        font-family: "Germania One", system-ui;
+        font-weight: 400;
+        font-style: normal;  
+    }
+
+    button {
+        border: none;
+        border-radius: 0.625rem;
+        background: #5D816A;
+        color: #0A0E01;
+        padding: 1rem 2rem;
+        font-size: 20px;
+    }
+
     .index-body {
         margin: 3.75rem 11.81rem;
     }
@@ -15,6 +58,7 @@
     .intro-paragraph {
         margin-right: 50rem;
         margin-top: 1.5rem;
+        line-height: 1.5rem;
     }
 
     button {
@@ -131,7 +175,8 @@
     /** FOOTER **/
 
     .footer {
-        background-color: gray;
+        background-color: #834459;
+        color: #AE677F;
         height: 100px;
         margin: 2rem -0.5rem -0.5rem -0.5rem;
         text-align: center;
