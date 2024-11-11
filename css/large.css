@@ -48,7 +48,7 @@
     .overlay-text {
         position: absolute;
         font-size: 32px;
-        padding: 3rem 0 1rem 3rem;
+        padding: 3rem 0 0rem 2rem;
     }
 
     img {
