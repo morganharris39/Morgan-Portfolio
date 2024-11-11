@@ -1,0 +1,123 @@
+@media only screen and (min-width: 35rem) {
+
+    /** INDEX **/
+
+    .index-body {
+        margin: 3.75rem 6.81rem;
+    }
+
+    .index-title {
+        margin-right: 17rem;
+        margin-bottom: -0.1rem;
+        font-size: 72px;
+    }
+
+    .intro-paragraph {
+        margin-right: 12rem;
+        margin-top: 1.5rem;
+    }
+
+    button {
+        margin-top: 1rem;
+    }
+
+    .past-projects {
+        margin-top: 3.5rem;
+    }
+
+    .link-gallery {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .case-image {
+        flex: 50%;
+        padding: 1rem;
+        position: relative;
+        display: inline-block;
+    }
+
+    .case-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 60%; 
+        left: -5%; 
+        transform: translate(10%, 10%); 
+        padding: 10px 20px; 
+        font-size: 20px; 
+        text-align: center;
+    }
+    
+    img {
+        border-radius: 0.625rem;
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+    }
+
+    .case-study {
+        margin: 0 5rem 10rem 5rem;
+    }
+
+    /** CASE STUDY IMAGES **/
+
+    .case-image-left {
+        width: 45%;
+        float: left;
+        margin: 0 1.5rem 1rem 0;
+    }
+
+    .case-image-right {
+        width: 45%;
+        float: right;
+        margin: 0 0 1rem 1.5rem;
+    }
+
+    .case-image-left-small {
+        width: 20%;
+        float: left;
+        margin: 0 1.5rem 1rem 0;
+    }
+
+    .case-image-right-small {
+        width: 30%;
+        float: right;
+        margin: 0 0 1rem 1.5rem;
+    }
+
+    .case-image-left-tiny {
+        width: 20%;
+        float: left;
+        margin: 0 1.5rem 1rem 0;
+    }
+
+    .case-image-right-tiny {
+        width: 10%;
+        float: right;
+        margin: 0 0 1rem 1.5rem;
+    }
+
+    .case-image-big {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer {
+        background-color: gray;
+        height: 100px;
+        margin: -0.5rem;
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+
+    
+} /* end media query */
